@@ -1,31 +1,33 @@
 *,
 *::before,
-*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-html  {
+html {
   box-sizing: border-box;
-  font-size: 62.5%; //target - 10px, 1rem = 10px, 10px/16px = 62.5%
- // font-family: 'Quicksand', sans-serif;
+  font-size: 62.5%; //target - 10px, 1rem = 10px, 10px/16px = 62.5
 }
 
-body  {
+body {
   font-family: 'GT Walsheim Pro', sans-serif;
 }
 
-.gt-bold  {
+.gt-bold {
   font-family: 'GT Walsheim Pro Bold';
 }
 
 
 @import url(//db.onlinewebfonts.com/c/f7afe66fe9d022d7dc7fd57e4adc078f?family=GT+Walsheim+Pro+Bold);
 
-@font-face {font-family: "GT Walsheim Pro Bold"; src: url("//db.onlinewebfonts.com/t/f7afe66fe9d022d7dc7fd57e4adc078f.eot"); src: url("//db.onlinewebfonts.com/t/f7afe66fe9d022d7dc7fd57e4adc078f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f7afe66fe9d022d7dc7fd57e4adc078f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f7afe66fe9d022d7dc7fd57e4adc078f.woff") format("woff"), url("//db.onlinewebfonts.com/t/f7afe66fe9d022d7dc7fd57e4adc078f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f7afe66fe9d022d7dc7fd57e4adc078f.svg#GT Walsheim Pro Bold") format("svg"); }
-
-
-// .hey input::placeholder {
-//   color: red;
-// }
+@font-face {
+  font-family: "GT Walsheim Pro Bold";
+  src: url("//db.onlinewebfonts.com/t/f7afe66fe9d022d7dc7fd57e4adc078f.eot");
+  src: url("//db.onlinewebfonts.com/t/f7afe66fe9d022d7dc7fd57e4adc078f.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/f7afe66fe9d022d7dc7fd57e4adc078f.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/f7afe66fe9d022d7dc7fd57e4adc078f.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/f7afe66fe9d022d7dc7fd57e4adc078f.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/f7afe66fe9d022d7dc7fd57e4adc078f.svg#GT Walsheim Pro Bold") format("svg");
+}
