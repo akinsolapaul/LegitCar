@@ -50,8 +50,20 @@ section {
     }
 }
 
+.vehicle  {
+  height: 26rem;
+ // border: 1px solid red !important;
+  border-radius: 20px !important;
+}
 
+.border-10  {
+  border-radius: 30px !important;
+}
 
+.report {
+  //box-shadow:  0 2rem 5rem rgba(0,0,0,.1);
+  box-shadow: 0px 4px 20px rgba(29, 41, 57, 0.1);
+}
 
 
 
