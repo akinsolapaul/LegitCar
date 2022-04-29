@@ -28,8 +28,9 @@ section {
   header {
 
     input {
-      border: 1px solid #A3A3A3;
-      border-radius: 10px;
+      border: 1px solid #D0D5DD;
+      border-radius: 7px;
+      width: 18rem;
     }
   }
 
@@ -55,11 +56,17 @@ section {
   box-shadow: 0px 4px 20px rgba(29, 41, 57, 0.1);
 }
 
+.icon-arrow-left  {
+  height: 2rem;
+  width: 2rem;
+  fill: #475467;
+}
+
 .icon-down-arrow {
   height: 1.5rem;
   width: 1.5rem;
   margin-top: -0.5rem;
-  margin-left: -3rem;
+  margin-left: -2.7rem;
   fill: #A3A3A3;
 }
 
